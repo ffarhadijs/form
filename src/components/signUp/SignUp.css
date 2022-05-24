@@ -1,0 +1,99 @@
+.container {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  padding: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.106);
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form h1 {
+  color: rgb(35, 135, 234);
+}
+.formfield {
+  width: 340px;
+  margin: 10px auto;
+}
+.formfield input {
+  padding: 8px;
+  width: 320px;
+  margin: 5px 0;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid silver;
+  transition: 0.5s ease-in;
+}
+.formfield label{
+    color: white;
+}
+.formfield input:focus,
+.formfield .inputerror:focus {
+  border: 2px solid rgb(35, 135, 234);
+}
+
+.formfield .inputerror {
+  border: 2px solid red;
+}
+.formfield span {
+  background-color: rgba(228, 155, 155, 0.777);
+  color: rgba(255, 0, 0, 0.81);
+  font-size: 12px;
+  font-weight: bolder;
+  width: fit-content;
+  padding: 0px 5px;
+}
+.checkbox label{
+    width: 280px;
+    color: white;
+}
+.checkbox input{
+    width: 100px;
+}
+.btns{
+    width: 340px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn {
+  border: none;
+  outline: none;
+  background-color: rgb(35, 135, 234);
+  color: white;
+  padding: 7px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 10px 0;
+}
+.btn:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(35, 135, 234);
+}
+.signin{
+    text-decoration: none;
+    color: rgb(35, 135, 234);
+    font-size: 15px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 10px 0;
+}
+.signin:active{
+    background-color: rgb(35, 135, 234);
+    color: white;
+}
+
